@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <Header />
-    <Main />
-    <Footer />
-  </div>
+  <div></div>
 </template>
 
 <script>
