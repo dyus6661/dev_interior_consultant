@@ -7,6 +7,23 @@
     @apply rounded-md uppercase bg-green-700 text-white font-semibold tracking-tight px-8 py-2;
   }
 
+  .nav-links {
+    @apply font-medium text-lg;
+  }
+
+  .nav-links .nav-item {
+    @apply relative pb-2;
+  }
+
+  .nav-links .nav-item::after {
+    content: "";
+    @apply absolute block invisible opacity-0 w-full h-px bg-white bottom-0 left-0 transition-opacity duration-300;
+  }
+
+  .nav-links .nav-item:hover::after {
+    @apply visible opacity-100;
+  }
+
 }
 
 body {
