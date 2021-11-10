@@ -1,6 +1,8 @@
 <template>
   <main>
-    <div class="container mx-auto px-4 mt-10 lg:mt-36 pb-3 md:pb-9">
+    <div
+      class="container mx-auto pt-12 md:pt-0 px-4 mt-10 lg:mt-36 pb-3 md:pb-9"
+    >
       <div class="hero flex flex-col lg:flex-row md:justify-between">
         <div
           class="
